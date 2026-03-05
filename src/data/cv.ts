@@ -5,66 +5,43 @@ export type CvArticle = {
   period?: string;
   bullets: string[];
   tags?: string[];
-  type: 'work' | 'education';
+  type: "work" | "education";
 };
 
 export const cvArticles: CvArticle[] = [
   {
-    title: 'SWE Intern',
-    org: 'Webeet',
-    location: 'Remote',
-    period: 'Jan 2024 - Present',
+    title: "DevOps Intern",
+    org: "Webeet.io",
+    location: "Remote",
+    period: "Jan 2026 - Mar 2026",
     bullets: [
-      'Built AI-first features using RAG/LLM orchestration and MapLibre visualization',
-      'Implemented SSR React views with Fastify BFF endpoints and PostgreSQL',
-      'Owned CI/CD pipeline and trunk-based development with comprehensive testing',
-      'Collaborated on microservice architecture with FastAPI and Zustand state management',
+      "Implemented Chaos Monkey tests for container resilience in AWS, fixed circular import issues, and added JSON report generation",
+      "Developed Ansible role (app_deploy) for automated application deployment with AWS SSM, Jinja2 templates, and Docker Compose v2",
+      "Created PostgreSQL restore runbook for disaster recovery, including step-by-step procedure and RTO estimation",
+      "Collaborated with team using Git/GitHub (branching, PRs, code reviews) and incorporated feedback",
     ],
-    tags: ['React (SSR)', 'Fastify', 'FastAPI', 'RAG', 'Zustand', 'Zod', 'MapLibre', 'PostgreSQL'],
-    type: 'work',
+    tags: [
+      "AWS",
+      "Ansible",
+      "Docker",
+      "Git",
+      "Bash",
+      "Chaos Monkey",
+      "PostgreSQL",
+    ],
+    type: "work",
   },
   {
-    title: 'QA Intern',
-    org: 'Webeet',
-    location: 'Remote',
-    period: 'Jan 2024 - Present',
+    title: "DevOps & Cloud Program",
+    org: "Masterschool",
+    location: "Remote",
+    period: "Jan 2025 - Mar 2026",
     bullets: [
-      'Implemented TDD approach with Jest unit tests and Playwright E2E testing',
-      'Owned CI/CD pipeline stability through comprehensive test automation',
-      'Delivered value through automated testing reducing manual QA effort by 60%',
-      'Learned advanced testing patterns and quality assurance best practices',
+      "Intensive hands-on training in cloud infrastructure, automation, and DevOps practices",
+      "Completed cloud migration project: deployed full-stack grocery app on AWS with Terraform (VPC, ASG, ALB, RDS, Secrets Manager)",
+      "Gained practical experience with CI/CD pipelines, infrastructure as code, and system resilience",
     ],
-    tags: ['Playwright', 'Jest', 'CI/CD', 'Selenium', 'Pytest', 'Great Expectations'],
-    type: 'work',
-  },
-  {
-    title: 'Software Engineering Full Stack',
-    org: 'Masterschool',
-    location: 'Remote',
-    period: '2023 - 2024',
-    bullets: [
-      'Comprehensive full-stack development curriculum with Python and JavaScript',
-      'Built end-to-end applications using modern frameworks and databases',
-      'Learned software architecture patterns and best practices',
-      'Completed capstone project demonstrating full-stack proficiency',
-    ],
-    tags: ['Python', 'JavaScript', 'Full Stack', 'Software Engineering'],
-    type: 'education',
-  },
-  {
-    title: 'QA Testing with Python & Selenium',
-    org: 'Masterschool',
-    location: 'Remote',
-    period: '2023 - 2024',
-    bullets: [
-      'Specialized QA curriculum focusing on Python automation and Selenium testing',
-      'Mastered test automation frameworks and continuous integration practices',
-      'Developed comprehensive test suites for web applications',
-      'Learned advanced testing methodologies and quality assurance strategies',
-    ],
-    tags: ['Python', 'Selenium', 'QA Testing', 'Automation'],
-    type: 'education',
+    tags: ["AWS", "Terraform", "CI/CD", "DevOps", "Cloud"],
+    type: "education",
   },
 ];
-
-

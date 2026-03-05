@@ -9,51 +9,48 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Testing Platform & CI Stability",
+    title: "GroceryMate – Cloud Migration",
     description:
-      "Built end-to-end testing infrastructure across JavaScript and Python services. Authored Jest unit/integration suites, Playwright E2E flows, and smoke checks to stabilize CI pipelines and improve reliability.",
-    tags: ["Playwright", "Jest", "Pytest", "CI/CD", "Automation"],
+      "Deployed a highly available and scalable infrastructure for a full-stack grocery application on AWS using Terraform. Architected a modular environment featuring a VPC, Auto Scaling Groups (ASG), and Application Load Balancer (ALB). Implemented a managed RDS (PostgreSQL) instance with secure credential management via AWS Secrets Manager and automated the deployment pipeline.",
+    tags: [
+      "Terraform",
+      "AWS",
+      "VPC",
+      "ASG",
+      "ALB",
+      "RDS",
+      "Secrets Manager",
+      "Infrastructure as Code",
+    ],
     image: "/images/project-placeholder.svg",
+    link: "",
+    repo: "https://github.com/EugeniaBel/AWS_grocery",
   },
   {
-    title: "Authentication Service",
+    title: "Ansible app_deploy Role",
     description:
-      "Microservice handling user authentication with Fastify, JWT, and shared schema validation. Implemented secure login and refresh token flow, integrated Dockerized Postgres, and added route-level test coverage.",
-    tags: ["Fastify", "JWT", "Docker", "PostgreSQL", "Zod", "Kafka"],
+      "Developed Ansible role for automated application deployment. Integrated AWS SSM for secure parameter management, Jinja2 templates, and Docker Compose v2.",
+    tags: ["Ansible", "AWS", "Docker", "Jinja2"],
     image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/layered-auth-service",
+    link: "",
+    repo: "https://github.com/webeet-io/layered-infra",
   },
   {
-    title: "User Management Service",
+    title: "PostgreSQL Restore Runbook",
     description:
-      "Service responsible for user profiles, relations, and metadata. Integrated Zod-based validation, added Kafka event publishing, and maintained consistency between services in a shared architecture.",
-    tags: ["Fastify", "PostgreSQL", "Kafka", "Zod", "Docker"],
+      "Created disaster recovery documentation for PostgreSQL. Defined step-by-step restore procedure and RTO estimation.",
+    tags: ["PostgreSQL", "AWS", "Documentation"],
     image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/layered-users-service",
+    link: "",
+    repo: "https://github.com/webeet-io/layered-infra",
   },
   {
-    title: "Web Client",
+    title: "Chaos Monkey Testing",
     description:
-      "Frontend built with React and Remix, providing a unified interface for multiple microservices. Contributed to authentication flow, reusable UI components, and automated testing using Playwright and Vitest.",
-    tags: ["React", "Remix", "TypeScript", "Tailwind CSS", "Playwright", "Vitest"],
+      "Implemented container resilience tests in AWS. Fixed circular import issues and added JSON report generation for test results.",
+    tags: ["AWS", "Bash", "Docker", "SSM"],
     image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/layered-web-client",
-  },
-  {
-    title: "Instagram Clone",
-    description:
-      "Full-stack social media demo app with Fastify backend and React frontend. Implemented Reels, Tagged, and Highlights modules using TDD and Zod schemas, plus component and API tests.",
-    tags: ["React", "Fastify", "TypeScript", "Zod", "Tailwind CSS", "Vitest"],
-    image: "/images/project-placeholder.svg",
-    link: "https://insta-clone-react-frontend.vercel.app",
-    repo: "https://github.com/MaliLala/insta-clone-react-frontend",
-  },
-  {
-    title: "MarketMate Test Automation",
-    description:
-      "Migrated a Selenium + PyTest suite to Playwright with a clean Page Object Model. Added reliable waits, CI-ready fixtures, and coverage for login, reviews, and shipping cost flows.",
-    tags: ["Playwright", "Python", "Pytest", "POM", "CI/CD"],
-    image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/MarketMateTestAutomation",
+    link: "",
+    repo: "https://github.com/webeet-io/layered-infra",
   },
 ];

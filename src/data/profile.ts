@@ -17,81 +17,31 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "Goran Csonkity",
-  role: "QA Engineer / SDET",
+  name: "Yevheniia Belohai",
+  role: "DevOps Intern",
   summary:
-    "QA-focused engineer building and testing web apps with TypeScript, React, Fastify, and Playwright. I value clean architecture, TDD, and practical automation that adds confidence. I enjoy helping new interns get started and sharing what I’ve learned along the way.",
+    "I build and automate cloud infrastructure with AWS, Ansible, and Docker. Passionate about reliability, CI/CD, and learning fast.",
 
-  location: "Berlin, Germany",
-  email: "csonkityg@gmail.com",
-  lookingFor: "QA / SDET roles in Europe (remote or hybrid)",
+  location: "Kassel, Germany",
+  email: "belohay@gmail.com",
+  lookingFor: "Open to DevOps roles",
   avatar: "/images/avatar.svg",
-  resumeUrl: "https://www.linkedin.com/in/goran-csonkity",
+  resumeUrl: "",
   skills: [
-    // Core Languages & Runtime
-    "TypeScript",
-    "JavaScript (ES6+)",
-    "Python",
-    "Node.js",
-
-    // Frontend
-    "React",
-    "Next.js",
-    "Zustand",
-    "Tailwind CSS",
-    "HTML5 / CSS3",
-
-    // Backend & APIs
-    "Fastify",
-    "REST APIs",
-    "JWT Authentication",
-    "Zod Validation",
-
-    // Databases & Data
-    "PostgreSQL",
-    "SQL",
-    "Dockerized Postgres",
-    "Migrations",
-
-    // Messaging / Streaming
-    "Kafka",
-    "Event-driven Architecture",
-
-    // Testing & QA
-    "Playwright",
-    "Vitest",
-    "Jest",
-    "Pytest",
-    "Selenium (legacy)",
-    "TDD / BDD",
-    "Integration Testing",
-    "E2E Testing",
-    "CI/CD Pipelines",
-
-    // DevOps & Tools
+    "AWS",
+    "Ansible",
     "Docker",
-    "Git / GitHub",
-    "GitHub Actions",
-    "VS Code",
+    "Python",
+    "Git/GitHub",
+    "Bash",
+    "CI/CD",
+    "Terraform",
+    "PostgreSQL",
     "Linux",
-    "Shell / CLI Tools",
-
-    // Patterns & Practices
-    "Clean Architecture",
-    "Page Object Model (POM)",
-    "Microservices",
-    "Schema Submodules",
-    "Test Strategy Design",
-
-    // Collaboration
-    "Onboarding Support for New Interns",
-    "Knowledge Sharing",
-    "Team Communication",
-    "Cross-functional Collaboration"
   ],
   links: [
-    { label: "GitHub", href: "https://github.com/MaliLala" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/goran-csonkity" },
-    { label: "Email", href: "mailto:csonkityg@gmail.com" },
+    { label: "GitHub", href: "https://github.com/EugeniaBel" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/yevheniia-belohai/" },
+    { label: "Email", href: "mailto:belohay@gmail.com" },
   ],
 };
